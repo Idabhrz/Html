@@ -1,46 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
+    header {
+        background-color: #fff;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
 
-        h1 {
-            font-size: 80px;
-            margin: 20px 0;
-        }
+    header img {
+        vertical-align: middle;
+        margin: 0 15px;
+    }
 
-        h2 {
-            font-size: 50px;
-            margin: 10px 0;
-        }
 
-        a {
-            text-decoration: none;
-            color: #007BFF; /* Bootstrap primary color */
-            transition: color 0.3s;
-        }
+    h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
 
-        a:hover {
-            color: #0056b3; /* Darker shade on hover */
-        }
+    .form-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 0 auto;
+        width: 300px; /* Fixed width for better layout */
+    }
 
-        .divider {
-            font-size: 50px;
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome</h1>
-    <h2>First please</h2> 
-    <a href="html-signin.html"><h2>Sign In</h2></a>
-    <div class="divider">/</div>
-    <a href="html-login.html"><h2>Log In</h2></a>
-</body>
-</html>
+    table {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%; /* Full width for the button */
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    a {
+        color: #007BFF;
+        text-decoration: none;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
